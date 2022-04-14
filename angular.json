@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "psn-viewer": "apps/psn-viewer",
+    "psn-viewer-e2e": "apps/psn-viewer-e2e"
+  }
+}

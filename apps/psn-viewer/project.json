@@ -1,0 +1,94 @@
+{
+  "projectType": "application",
+  "root": "apps/psn-viewer",
+  "sourceRoot": "apps/psn-viewer/src",
+  "prefix": "psn-viewer",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/psn-viewer",
+        "index": "apps/psn-viewer/src/index.html",
+        "main": "apps/psn-viewer/src/main.ts",
+        "polyfills": "apps/psn-viewer/src/polyfills.ts",
+        "tsConfig": "apps/psn-viewer/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/psn-viewer/src/favicon.ico",
+          "apps/psn-viewer/src/assets"
+        ],
+        "styles": ["apps/psn-viewer/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/psn-viewer/src/environments/environment.ts",
+              "with": "apps/psn-viewer/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "psn-viewer:build:production"
+        },
+        "development": {
+          "browserTarget": "psn-viewer:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "psn-viewer:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/psn-viewer/src/**/*.ts",
+          "apps/psn-viewer/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/psn-viewer"],
+      "options": {
+        "jestConfig": "apps/psn-viewer/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

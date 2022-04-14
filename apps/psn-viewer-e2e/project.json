@@ -1,0 +1,28 @@
+{
+  "root": "apps/psn-viewer-e2e",
+  "sourceRoot": "apps/psn-viewer-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/psn-viewer-e2e/cypress.json",
+        "devServerTarget": "psn-viewer:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "psn-viewer:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/psn-viewer-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["psn-viewer"]
+}
