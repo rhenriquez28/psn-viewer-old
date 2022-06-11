@@ -4,6 +4,7 @@
     "psn-viewer": "apps/psn-viewer",
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-shell-feature": "libs/web/shell/feature",
-    "web-shell-ui-layout": "libs/web/shell/ui/layout"
+    "web-shell-ui-layout": "libs/web/shell/ui/layout",
+    "web-shell-ui-top-bar": "libs/web/shell/ui/top-bar"
   }
 }
