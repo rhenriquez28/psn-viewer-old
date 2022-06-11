@@ -2,7 +2,7 @@
   "projectType": "application",
   "root": "apps/psn-viewer",
   "sourceRoot": "apps/psn-viewer/src",
-  "prefix": "psn-viewer",
+  "prefix": "psnv",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

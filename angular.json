@@ -2,6 +2,8 @@
   "version": 2,
   "projects": {
     "psn-viewer": "apps/psn-viewer",
-    "psn-viewer-e2e": "apps/psn-viewer-e2e"
+    "psn-viewer-e2e": "apps/psn-viewer-e2e",
+    "web-shell-feature": "libs/web/shell/feature",
+    "web-shell-ui-layout": "libs/web/shell/ui/layout"
   }
 }
