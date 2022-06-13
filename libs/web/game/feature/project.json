@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/game/feature",
+  "sourceRoot": "libs/web/game/feature/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/game/feature"],
+      "options": {
+        "jestConfig": "libs/web/game/feature/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/game/feature/src/**/*.ts",
+          "libs/web/game/feature/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
