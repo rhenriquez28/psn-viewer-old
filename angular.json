@@ -5,6 +5,8 @@
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-game-feature": "libs/web/game/feature",
     "web-game-ui-game-summary": "libs/web/game/ui/game-summary",
+    "web-home-feature": "libs/web/home/feature",
+    "web-home-ui-profile-summary-card": "libs/web/home/ui/profile-summary-card",
     "web-shell-feature": "libs/web/shell/feature",
     "web-shell-ui-layout": "libs/web/shell/ui/layout",
     "web-shell-ui-top-bar": "libs/web/shell/ui/top-bar"

@@ -7,6 +7,11 @@ export const webShellRoutes: Routes = [
     component: LayoutComponent,
     children: [
       {
+        path: '',
+        loadChildren: async () =>
+          (await import('@psn-viewer/web/home/feature')).HomeModule,
+      },
+      {
         path: 'game',
         loadChildren: async () =>
           (await import('@psn-viewer/web/game/feature')).GameModule,

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/home/ui/profile-summary-card",
+  "sourceRoot": "libs/web/home/ui/profile-summary-card/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/home/ui/profile-summary-card"],
+      "options": {
+        "jestConfig": "libs/web/home/ui/profile-summary-card/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/home/ui/profile-summary-card/src/**/*.ts",
+          "libs/web/home/ui/profile-summary-card/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
