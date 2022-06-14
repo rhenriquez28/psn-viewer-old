@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/home/ui/game-card",
+  "sourceRoot": "libs/web/home/ui/game-card/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/home/ui/game-card"],
+      "options": {
+        "jestConfig": "libs/web/home/ui/game-card/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/home/ui/game-card/src/**/*.ts",
+          "libs/web/home/ui/game-card/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

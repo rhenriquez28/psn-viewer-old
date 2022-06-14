@@ -1,0 +1,11 @@
+<div class="flex items-center justify-center" [ngClass]="{'text-black': type === 'all', 'text-sky-700': type === 'platinum', 
+    'text-amber-400': type === 'gold', 
+    'text-slate-400': type === 'silver', 
+    'text-amber-700': type === 'bronze'}">
+    <svg-icon key="trophy" class="w-4 h-4">
+    </svg-icon>
+
+    <div class="text-base ml-2">
+        {{ count }}
+    </div>
+</div>

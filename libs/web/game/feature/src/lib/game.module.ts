@@ -7,7 +7,7 @@ import { GameComponent } from './game.component';
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild([{ path: '', component: GameComponent }]),
+    RouterModule.forChild([{ path: ':gameName', component: GameComponent }]),
     GameSummaryModule,
   ],
   declarations: [GameComponent],

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/home/ui/trophy-counter",
+  "sourceRoot": "libs/web/home/ui/trophy-counter/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/home/ui/trophy-counter"],
+      "options": {
+        "jestConfig": "libs/web/home/ui/trophy-counter/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/home/ui/trophy-counter/src/**/*.ts",
+          "libs/web/home/ui/trophy-counter/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

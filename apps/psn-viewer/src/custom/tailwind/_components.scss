@@ -1,0 +1,13 @@
+@layer components {
+  .badge {
+    @apply border-2 py-1 px-2;
+  }
+
+  .badge--platform {
+    @apply border-black text-black font-bold;
+  }
+
+  .badge--ps-plus {
+    @apply border-yellow-500 text-yellow-500;
+  }
+}

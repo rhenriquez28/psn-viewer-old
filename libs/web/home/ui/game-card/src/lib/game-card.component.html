@@ -1,20 +1,20 @@
-<div class="flex">
-    <div class="w-28 h-28 bg-gray-300 rounded-full"></div>
+<div class="flex items-center">
+    <div *ngIf="true" class="w-28 h-28 bg-gray-300"></div>
 
-    <div class="flex items-center ml-3">
-        <div class="text-lg text-black">
-            roy5472
+    <div *ngIf="false" class="w-28 h-14 bg-gray-300"></div>
+
+    <div class="ml-2">
+        <div class="text-black text-base">
+            Ratchet & Clank: Rift Apart
         </div>
 
-        <div class="badge badge--ps-plus ml-2">Plus Member</div>
+        <div>
+            PS5
+        </div>
     </div>
 </div>
 
-<div class="text-md text-black my-4">
-    Trophy Summary
-</div>
-
-<div class="flex justify-center">
+<div class="flex">
     <psnv-trophy-counter class="trophy-counter" type="platinum" [count]="90"></psnv-trophy-counter>
     <psnv-trophy-counter class="trophy-counter" type="gold" [count]="100"></psnv-trophy-counter>
     <psnv-trophy-counter class="trophy-counter" type="silver" [count]="200"></psnv-trophy-counter>

@@ -20,8 +20,17 @@
         "libs/web/game/ui/game-summary/src/index.ts"
       ],
       "@psn-viewer/web/home/feature": ["libs/web/home/feature/src/index.ts"],
+      "@psn-viewer/web/home/ui/game-card": [
+        "libs/web/home/ui/game-card/src/index.ts"
+      ],
       "@psn-viewer/web/home/ui/profile-summary-card": [
         "libs/web/home/ui/profile-summary-card/src/index.ts"
+      ],
+      "@psn-viewer/web/home/ui/trophy-counter": [
+        "libs/web/home/ui/trophy-counter/src/index.ts"
+      ],
+      "@psn-viewer/web/shared/ui/icon": [
+        "libs/web/shared/ui/icon/src/index.ts"
       ],
       "@psn-viewer/web/shell/feature": ["libs/web/shell/feature/src/index.ts"],
       "@psn-viewer/web/shell/ui/layout": [

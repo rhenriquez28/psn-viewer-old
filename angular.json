@@ -6,7 +6,10 @@
     "web-game-feature": "libs/web/game/feature",
     "web-game-ui-game-summary": "libs/web/game/ui/game-summary",
     "web-home-feature": "libs/web/home/feature",
+    "web-home-ui-game-card": "libs/web/home/ui/game-card",
     "web-home-ui-profile-summary-card": "libs/web/home/ui/profile-summary-card",
+    "web-home-ui-trophy-counter": "libs/web/home/ui/trophy-counter",
+    "web-shared-ui-icon": "libs/web/shared/ui/icon",
     "web-shell-feature": "libs/web/shell/feature",
     "web-shell-ui-layout": "libs/web/shell/ui/layout",
     "web-shell-ui-top-bar": "libs/web/shell/ui/top-bar"
