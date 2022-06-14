@@ -9,8 +9,10 @@
     "web-home-ui-game-card": "libs/web/home/ui/game-card",
     "web-home-ui-profile-summary-card": "libs/web/home/ui/profile-summary-card",
     "web-home-ui-trophy-counter": "libs/web/home/ui/trophy-counter",
+    "web-shared-assets": "libs/web/shared/assets",
     "web-shared-ui-icon": "libs/web/shared/ui/icon",
     "web-shell-feature": "libs/web/shell/feature",
+    "web-shell-ui-footer": "libs/web/shell/ui/footer",
     "web-shell-ui-layout": "libs/web/shell/ui/layout",
     "web-shell-ui-top-bar": "libs/web/shell/ui/top-bar"
   }

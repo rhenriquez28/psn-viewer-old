@@ -16,7 +16,12 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/psn-viewer/src/favicon.ico",
-          "apps/psn-viewer/src/assets"
+          "apps/psn-viewer/src/assets",
+          {
+            "glob": "**/*",
+            "input": "libs/web/shared/assets/src/assets",
+            "output": "assets"
+          }
         ],
         "styles": ["apps/psn-viewer/src/styles.scss"],
         "scripts": []

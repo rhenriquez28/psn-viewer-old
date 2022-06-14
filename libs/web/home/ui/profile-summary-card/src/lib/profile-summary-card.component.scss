@@ -2,6 +2,19 @@
   @apply p-4 w-full h-fit shadow-md;
 }
 
+.ps-plus::after {
+  --dimensions: 30px;
+  content: '';
+  width: var(--dimensions);
+  height: var(--dimensions);
+  background-size: var(--dimensions);
+  background-image: url('/assets/images/ps-plus.png');
+  position: absolute;
+  right: -8px;
+  bottom: 0px;
+  z-index: 1;
+}
+
 .trophy-counter {
   &:not(:first-child) {
     @apply ml-3;

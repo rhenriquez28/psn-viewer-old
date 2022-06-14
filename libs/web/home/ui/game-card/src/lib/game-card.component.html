@@ -1,14 +1,14 @@
-<div class="flex items-center">
-    <div *ngIf="true" class="w-28 h-28 bg-gray-300"></div>
+<div class="flex items-center min-w-0">
+    <div *ngIf="false" class="w-28 h-28 bg-gray-300 flex-shrink-0"></div>
 
-    <div *ngIf="false" class="w-28 h-14 bg-gray-300"></div>
+    <div *ngIf="true" class="w-28 h-14 bg-gray-300 flex-shrink-0"></div>
 
-    <div class="ml-2">
-        <div class="text-black text-base">
+    <div class="mx-2 min-w-0">
+        <div class="text-black text-base overflow-hidden whitespace-nowrap text-ellipsis mb-2">
             Ratchet & Clank: Rift Apart
         </div>
 
-        <div>
+        <div class="badge badge--platform w-fit">
             PS5
         </div>
     </div>

@@ -33,6 +33,9 @@
         "libs/web/shared/ui/icon/src/index.ts"
       ],
       "@psn-viewer/web/shell/feature": ["libs/web/shell/feature/src/index.ts"],
+      "@psn-viewer/web/shell/ui/footer": [
+        "libs/web/shell/ui/footer/src/index.ts"
+      ],
       "@psn-viewer/web/shell/ui/layout": [
         "libs/web/shell/ui/layout/src/index.ts"
       ],
