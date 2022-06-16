@@ -1,3 +1,7 @@
+.cover-position {
+  object-position: right 33%;
+}
+
 .platform-badge {
   &:not(:first-child) {
     @apply ml-4;
