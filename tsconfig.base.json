@@ -19,6 +19,9 @@
       "@psn-viewer/web/game/ui/game-details": [
         "libs/web/game/ui/game-details/src/index.ts"
       ],
+      "@psn-viewer/web/game/ui/game-info": [
+        "libs/web/game/ui/game-info/src/index.ts"
+      ],
       "@psn-viewer/web/game/ui/game-media": [
         "libs/web/game/ui/game-media/src/index.ts"
       ],

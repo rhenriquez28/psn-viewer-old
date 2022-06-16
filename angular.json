@@ -5,6 +5,7 @@
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-game-feature": "libs/web/game/feature",
     "web-game-ui-game-details": "libs/web/game/ui/game-details",
+    "web-game-ui-game-info": "libs/web/game/ui/game-info",
     "web-game-ui-game-media": "libs/web/game/ui/game-media",
     "web-game-ui-game-summary": "libs/web/game/ui/game-summary",
     "web-game-ui-game-trophies": "libs/web/game/ui/game-trophies",

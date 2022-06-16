@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/game/ui/game-info",
+  "sourceRoot": "libs/web/game/ui/game-info/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/game/ui/game-info"],
+      "options": {
+        "jestConfig": "libs/web/game/ui/game-info/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/game/ui/game-info/src/**/*.ts",
+          "libs/web/game/ui/game-info/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
