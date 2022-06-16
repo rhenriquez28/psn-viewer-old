@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/game/ui/game-trophies",
+  "sourceRoot": "libs/web/game/ui/game-trophies/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/game/ui/game-trophies"],
+      "options": {
+        "jestConfig": "libs/web/game/ui/game-trophies/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/game/ui/game-trophies/src/**/*.ts",
+          "libs/web/game/ui/game-trophies/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

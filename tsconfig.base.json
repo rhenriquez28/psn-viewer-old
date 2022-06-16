@@ -16,8 +16,14 @@
     "baseUrl": ".",
     "paths": {
       "@psn-viewer/web/game/feature": ["libs/web/game/feature/src/index.ts"],
+      "@psn-viewer/web/game/ui/game-details": [
+        "libs/web/game/ui/game-details/src/index.ts"
+      ],
       "@psn-viewer/web/game/ui/game-summary": [
         "libs/web/game/ui/game-summary/src/index.ts"
+      ],
+      "@psn-viewer/web/game/ui/game-trophies": [
+        "libs/web/game/ui/game-trophies/src/index.ts"
       ],
       "@psn-viewer/web/home/feature": ["libs/web/home/feature/src/index.ts"],
       "@psn-viewer/web/home/ui/game-card": [

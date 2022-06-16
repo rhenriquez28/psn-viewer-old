@@ -3,4 +3,7 @@
 @tailwind utilities;
 @import "./custom/tailwind";
 
+@import '~ng-zorro-antd/style/index.min.css';
+@import '~ng-zorro-antd/tabs/style/index.min.css';
+
 /* You can add global styles to this file, and also import other style files */

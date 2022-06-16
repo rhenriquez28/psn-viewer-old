@@ -1,0 +1,7 @@
+# web-game-ui-game-details
+
+This library was generated with [Nx](https://nx.dev).
+
+## Running unit tests
+
+Run `nx test web-game-ui-game-details` to execute the unit tests.
