@@ -1,0 +1,7 @@
+.metadata-cell {
+  @apply flex justify-center;
+
+  &__label {
+    @apply text-zinc-200 font-bold
+  }
+}
