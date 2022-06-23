@@ -31,6 +31,9 @@
       "@psn-viewer/web/game/ui/game-trophies": [
         "libs/web/game/ui/game-trophies/src/index.ts"
       ],
+      "@psn-viewer/web/game/ui/trophy-card": [
+        "libs/web/game/ui/trophy-card/src/index.ts"
+      ],
       "@psn-viewer/web/home/feature": ["libs/web/home/feature/src/index.ts"],
       "@psn-viewer/web/home/ui/game-card": [
         "libs/web/home/ui/game-card/src/index.ts"

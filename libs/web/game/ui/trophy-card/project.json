@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/web/game/ui/trophy-card",
+  "sourceRoot": "libs/web/game/ui/trophy-card/src",
+  "prefix": "psnv",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/web/game/ui/trophy-card"],
+      "options": {
+        "jestConfig": "libs/web/game/ui/trophy-card/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/web/game/ui/trophy-card/src/**/*.ts",
+          "libs/web/game/ui/trophy-card/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

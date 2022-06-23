@@ -2,6 +2,10 @@
   @apply flex justify-center;
 
   &__label {
-    @apply text-zinc-200 font-bold
+    @apply text-zinc-200 font-bold;
+  }
+
+  &__data {
+    @apply ml-2;
   }
 }

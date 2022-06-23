@@ -1,0 +1,19 @@
+:host {
+  @apply p-4 w-full h-fit shadow-lg flex items-center justify-between hover:bg-sky-100;
+}
+
+.metadata {
+  &:not(.trophy-type) {
+    @apply pr-2 relative;
+
+    &::after {
+      @apply w-[1.5px] h-14 bg-gray-300 absolute right-[-1px];
+      content: '';
+      top: calc(50% - 26px);
+    }
+  }
+
+  &:not(.earned-time) {
+    @apply pl-2;
+  }
+}
