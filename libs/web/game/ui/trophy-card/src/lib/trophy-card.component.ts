@@ -1,4 +1,4 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
   selector: 'psnv-trophy-card',
@@ -6,8 +6,6 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./trophy-card.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TrophyCardComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
+export class TrophyCardComponent {
+  @Input() type!: 'platinum' | 'gold' | 'silver' | 'bronze';
 }
