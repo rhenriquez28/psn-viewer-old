@@ -1,36 +1,41 @@
-<div class="flex items-center min-w-0">
-    <div class="w-28 h-28 bg-gray-600 flex-shrink-0 border-[8px] border-gray-300"></div>
-
-    <div class="mx-4 min-w-0">
-        <div class="text-black text-base overflow-hidden whitespace-nowrap text-ellipsis mb-2">
-            Rift Apart
+<div class="p-4 w-full h-fit shadow-lg flex items-center justify-between hover:bg-sky-100"
+    [ngClass]="{'earned': earned}">
+    <div class="flex items-center min-w-0">
+        <div class="w-28 h-28 bg-gray-600 flex-shrink-0 border-[8px] border-gray-300"
+            [ngClass]="{'border-green-500': earned}">
         </div>
 
-        <div class="text-black text-base overflow-hidden whitespace-nowrap text-ellipsis">
-            Get Separated in Nefarious City
-        </div>
-    </div>
-</div>
+        <div class="mx-4 min-w-0">
+            <div class="text-black text-base overflow-hidden whitespace-nowrap text-ellipsis mb-2">
+                Rift Apart
+            </div>
 
-<div class="flex justify-end items-center">
-    <div class="flex flex-col text-center metadata earned-time">
-        <div class="text-base">
-            {{ "2021-08-15T21:22:08Z" | date:'dd MMM yyyy' }}
-        </div>
-
-        <div>
-            {{ "2021-08-15T21:22:08Z" | date:'hh:mm:ss aa' }}
+            <div class="text-black text-base overflow-hidden whitespace-nowrap text-ellipsis">
+                Get Separated in Nefarious City
+            </div>
         </div>
     </div>
 
-    <div class="metadata flex flex-col text-center text-gray-700">
-        <div class="text-3xl">
-            88.4%
-        </div>
-        <div class="text-xs uppercase">
-            common
-        </div>
-    </div>
+    <div class="flex justify-end items-center">
+        <div class="flex flex-col text-center metadata earned-time" *ngIf="earned">
+            <div class="text-base">
+                {{ "2021-08-15T21:22:08Z" | date:'dd MMM yyyy' }}
+            </div>
 
-    <img src="/assets/images/{{type}}.png" alt="{{type}}-trophy" width="25%" class="metadata trophy-type" />
+            <div>
+                {{ "2021-08-15T21:22:08Z" | date:'hh:mm:ss aa' }}
+            </div>
+        </div>
+
+        <div class="metadata flex flex-col text-center text-gray-700">
+            <div class="text-3xl">
+                88.4%
+            </div>
+            <div class="text-xs uppercase">
+                common
+            </div>
+        </div>
+
+        <img src="/assets/images/{{type}}.png" alt="{{type}}-trophy" width="106px" class="metadata trophy-type" />
+    </div>
 </div>

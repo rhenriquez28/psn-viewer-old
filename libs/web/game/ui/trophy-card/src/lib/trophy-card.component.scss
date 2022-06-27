@@ -1,5 +1,5 @@
-:host {
-  @apply p-4 w-full h-fit shadow-lg flex items-center justify-between hover:bg-sky-100;
+:host{
+  @apply block;
 }
 
 .metadata {
@@ -16,4 +16,8 @@
   &:not(.earned-time) {
     @apply pl-4;
   }
+}
+
+.earned {
+  @apply bg-green-100 hover:bg-green-200;
 }
