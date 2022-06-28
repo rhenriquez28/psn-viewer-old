@@ -15,6 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@psn-viewer/api/auth/feature": ["libs/api/auth/feature/src/index.ts"],
+      "@psn-viewer/api/core/feature": ["libs/api/core/feature/src/index.ts"],
+      "@psn-viewer/api/core/utils/firestore": [
+        "libs/api/core/utils/firestore/src/index.ts"
+      ],
+      "@psn-viewer/api/game/feature": ["libs/api/game/feature/src/index.ts"],
+      "@psn-viewer/api/user/feature": ["libs/api/user/feature/src/index.ts"],
       "@psn-viewer/web/game/feature": ["libs/web/game/feature/src/index.ts"],
       "@psn-viewer/web/game/ui/game-details": [
         "libs/web/game/ui/game-details/src/index.ts"

@@ -1,2 +1,2 @@
-export * from './auth.module';
-export * from './auth.service';
+export * from './lib/api-auth-feature-auth.controller';
+export * from './lib/api-auth-feature-auth.module';

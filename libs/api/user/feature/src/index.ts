@@ -1,2 +1,2 @@
-export * from './user.module';
-export * from './user.service';
+export * from './lib/api-user-feature-user.controller';
+export * from './lib/api-user-feature-user.module';
