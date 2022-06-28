@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "psn-viewer": "apps/psn-viewer",
+    "psn-viewer-api": "apps/psn-viewer-api",
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-game-feature": "libs/web/game/feature",
     "web-game-ui-game-details": "libs/web/game/ui/game-details",

@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "core": {
+      "type": "library",
+      "root": "libs/api/core/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/api/core/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/api/core/feature/tsconfig.lib.json"
+      }
+    },
+    "auth": {
+      "type": "library",
+      "root": "libs/api/auth/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/api/auth/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/api/auth/feature/tsconfig.lib.json"
+      }
+    },
+    "game": {
+      "type": "library",
+      "root": "libs/api/game/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/api/game/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/api/game/feature/tsconfig.lib.json"
+      }
+    },
+    "user": {
+      "type": "library",
+      "root": "libs/api/user/feature",
+      "entryFile": "index",
+      "sourceRoot": "libs/api/user/feature/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/api/user/feature/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
