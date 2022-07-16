@@ -7,7 +7,6 @@
     "api-game-feature": "libs/api/game/feature",
     "api-user-feature": "libs/api/user/feature",
     "psn-viewer": "apps/psn-viewer",
-    "psn-viewer-api": "apps/psn-viewer-api",
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-game-feature": "libs/web/game/feature",
     "web-game-ui-game-details": "libs/web/game/ui/game-details",
