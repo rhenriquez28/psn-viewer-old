@@ -1,11 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "api-auth-feature": "libs/api/auth/feature",
-    "api-core-feature": "libs/api/core/feature",
-    "api-core-utils-firestore": "libs/api/core/utils/firestore",
-    "api-game-feature": "libs/api/game/feature",
-    "api-user-feature": "libs/api/user/feature",
     "psn-viewer": "apps/psn-viewer",
     "psn-viewer-e2e": "apps/psn-viewer-e2e",
     "web-game-feature": "libs/web/game/feature",
